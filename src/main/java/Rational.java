@@ -9,11 +9,14 @@ class Rational {
     } 
 
     Rational() {
-        // to be completed
+        this.numerator = 0;
+        this.denominator = 1;
     }
 
     Rational(long numerator, long denominator) throws Illegal { 
-        // to be completed
+        this.numerator = numerator;
+        this.denominator =denominator;
+        simplestForm();
     } 
 
     // find the reduce form 
@@ -46,6 +49,9 @@ class Rational {
      */
     public void subtract(Rational x) {
         // to be completed
+        numerator = (numerator * x.denominator) - (x.numerator * denominator);
+        denominator = (denominator * x.denominator);
+        simplestForm(); // Simplify the result
     }
 
     /***
@@ -53,7 +59,9 @@ class Rational {
      * @param x the rational number to be multiplied to the current rational number
      */
     public void multiply(Rational x) { 
-        // to be completed
+        numerator *= x.numerator;
+        denominator *= x.denominator;
+        simplestForm(); // Simplify the result
     }
 
     /***
@@ -61,7 +69,10 @@ class Rational {
      * @param x the rational number to be divided by the current rational number
      */
     public void divide(Rational x) {
-        // to be completed
+        numerator *= x.denominator;
+        denominator *= x.numerator;
+        // Simplify the result
+        simplestForm();
     }
 
     /***
@@ -70,10 +81,14 @@ class Rational {
      * @return true if the given rational number equals to the current, false otherwise
      */
     public boolean equals(Object x) {
-        // to be completed
-        return true; // TODO: This needs to be modified.
-    }
+        if (!(x instanceof Rational)) {
+            return false;
+        }
+        Rational other = (Rational) x;
 
+        // Multiply the numerators and denominators to check for equality in different representations
+        return (this.numerator * other.denominator) == (other.numerator * this.denominator);
+    }
     /***
      * Compare the current rational number to the current rational number
      * @param x the rational number to be compared to the current rational number
@@ -81,17 +96,20 @@ class Rational {
      * rational number is larger than the given number
      */
     public long compareTo(Object x) {
-        // to be completed
-        return -1; // TODO: this needs to be modified.
+        if (!(x instanceof Rational)) {
+            throw new IllegalArgumentException("Can only compare with another Rational.");
+        }
+        Rational other = (Rational) x;
+        long difference = this.numerator * other.denominator - other.numerator * this.denominator;
+        return Long.signum(difference);
     }
 
     /***
      * Give the formatted string of the rational number
      * @return the string representation of the rational number. For example, "1/2", "3/4".
      */
-    public String toString() { 
-        // to be completed
-        return ""; // TODO: This needs to be modified.
+    public String toString() {
+            return this.numerator + "/" + this.denominator;
     }
 
     public static void main(String[] args) {

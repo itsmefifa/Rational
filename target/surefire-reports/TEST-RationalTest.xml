@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="RationalTest" time="0.043" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="jdk.extensions.version" value="8.0.382.0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Year_4\QA\Lab\lab_exercise_1\Rational\target\test-classes;D:\Year_4\QA\Lab\lab_exercise_1\Rational\target\classes;C:\Users\fifac\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\fifac\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="https://www.ibm.com/semeru-runtimes"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin\default;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\fifac\AppData\Local\Temp\surefire795734843781610752\surefirebooter-20230912180130257_3.jar C:\Users\fifac\AppData\Local\Temp\surefire795734843781610752 2023-09-12T18-01-29_982-jvmRun1 surefire-20230912180130257_1tmp surefire_0-20230912180130257_2tmp"/>
+    <property name="surefire.test.class.path" value="D:\Year_4\QA\Lab\lab_exercise_1\Rational\target\test-classes;D:\Year_4\QA\Lab\lab_exercise_1\Rational\target\classes;C:\Users\fifac\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\fifac\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\fifac"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="basedir" value="D:\Year_4\QA\Lab\lab_exercise_1\Rational"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\fifac\AppData\Local\Temp\surefire795734843781610752\surefirebooter-20230912180130257_3.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="sun.boot.class.path" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin\default\jclSC180\vm.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\se-service.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\rt.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\resources.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\jsse.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\charsets.jar;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\jce.jar"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin\default;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="1.8.0_382-b05&#10;JRE 1.8.0 Windows 11 amd64-64-Bit Compressed References 20230810_742 (JIT enabled, AOT enabled)&#10;OpenJ9   - d12d10c9e&#10;OMR      - e80bff83b&#10;JCL      - c4d2c2bafb based on jdk8u382-b05"/>
+    <property name="java.runtime.version" value="1.8.0_382-b05"/>
+    <property name="user.name" value="fifac"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="IBM Semeru Runtime Open Edition"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="C:\Users\fifac\.m2\repository"/>
+    <property name="java.io.tmpdir" value="C:\Users\fifac\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.1"/>
+    <property name="java.version" value="1.8.0_382"/>
+    <property name="com.ibm.system.agent.path" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin"/>
+    <property name="user.dir" value="D:\Year_4\QA\Lab\lab_exercise_1\Rational"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin\default;C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Gradle\gradle-8.3-all\bin;C:\Users\fifac\anaconda3\Scripts;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.2.2\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.2\bin;C:\Users\fifac\anaconda3;C:\Users\fifac\anaconda3\Library\mingw-w64\bin;C:\Users\fifac\anaconda3\Library\usr\bin;C:\Users\fifac\anaconda3\Library\bin;C:\Users\fifac\anaconda3\Scripts;C:\Users\fifac\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\bin;;C:\Users\fifac\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 11 amd64-64-Bit Compressed References 20230810_742 (JIT enabled, AOT enabled)&#10;OpenJ9   - d12d10c9e&#10;OMR      - e80bff83b&#10;JCL      - c4d2c2bafb based on jdk8u382-b05"/>
+    <property name="java.vm.version" value="openj9-0.40.0"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="ibm.system.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Users\fifac\.jdks\semeru-1.8.0_382\jre\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCompareToEqual" classname="RationalTest" time="0.004"/>
+  <testcase name="testAdd" classname="RationalTest" time="0"/>
+  <testcase name="testToString" classname="RationalTest" time="0"/>
+  <testcase name="testValidSubtraction" classname="RationalTest" time="0"/>
+  <testcase name="testCompareToLessThan" classname="RationalTest" time="0"/>
+  <testcase name="testCompareToGreaterThan" classname="RationalTest" time="0"/>
+  <testcase name="testEquals" classname="RationalTest" time="0"/>
+  <testcase name="testValidDivision" classname="RationalTest" time="0.001"/>
+  <testcase name="testValidMultiplication" classname="RationalTest" time="0"/>
+</testsuite>
